@@ -1,32 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- javascript ko link karne ke kai tarike hai -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DOM</title>
   <link rel="stylesheet" href="style.css">
-  <!-- pehle tarika ye hai pr ye glt tarika hai kyuki yaha javascript file load hone ke baad stop ho jayega and humara code aage run nahi karega -->
-  <!-- <script src="code1.js"></script> -->
-  
-  <!-- teesra tarika ye hai, isme async ke wajah se parse(matlb ek ek line read karna) and load alag alag hoga but isme error aane ke chances hai kyuki jab javascript load pura hoga to parse bhi ruk jayega is case me error aa sakta hai-->
-  <!-- <script src="code1.js" async></script> -->
-  
-  <!-- 4th tarika yeh hai isme parsing and loading sath me hoga (simultaneously) and js file load hone ke baad html file ko pura parse karegi and then uss loaded js file ko execute karegi so it is best method -->
-  <!-- <script src="code1.js" defer></script> --> <!-- defer: This Boolean attribute is set to indicate to a browser that the script is meant to be executed after the document has been parsed, but before firing  -->
-  <!-- <script src="code2.js" defer></script> -->
-  <!-- <script src="code3.js" defer></script> -->
-  <!-- <script src="code4.js" defer></script> -->
-  
-  <!-- <script src="code6.js" defer></script> defer likhna bohut jaruri hai and ise har bar use karna hai -->
-  <!-- <script src="code7.js" defer></script>  -->
-  <!-- <script src="code8.js" defer></script>  -->
-  <!-- <script src="code9.js" defer></script>  -->
-  <!-- <script src="code10.js" defer></script>  -->
-  <!-- <script src="code11.js" defer></script>  -->
-  <!-- <script src="code12.js" defer></script>  -->
-  <!-- <script src="code18.js" defer></script>  -->
-  <script src="code20.js" defer></script> 
+  <script src="script.js" defer></script> 
 </head>
   
 
@@ -44,7 +23,6 @@
       <h2 id="main-heading">
         Manage your tasks <span style="display: none">Hello</span>
       </h2>
-     <!-- <button class="btn btn-headline" onclick="console.log('printed on console'); document.querySelector('#main-heading span').style.display = 'block' "  >Learn More</button>  pehla tarika event add karne ka hai onclick= " iske ander javascript ka code likha jo click krne par fire ho and parenthesis ke ander sab small me likhna hai" -->
       <button class="btn btn-headline" >Learn More</button>
     </div>
   </header>
@@ -100,10 +78,6 @@
       <button type="submit" class="btn signup-btn">Submit</button>
     </form>
   </section>
-  <!-- its a practice or you can say revision of html and css -->
-
-  <!-- dosra tarika ye hai par iska time complexity bht jada hai -->
-<!-- <script src="code1.js"></script> -->
 </body>
 
 </html>
