@@ -4,9 +4,7 @@ const todoList = document.querySelector(".todo-list");
 // console.log(todoInput);
 
 todoForm.addEventListener("submit",(e)=>{
-    e.preventDefault();// ye page ko refresh karne se rokega // ye bht use karte hai
-    // console.log("form submitted");
-    // console.log(todoInput.value);// ye input field me jo v input likha hua hai use console me print karega
+    e.preventDefault();
 
     const newTodoText = todoInput.value;
     // console.log(newTodoText);
@@ -22,7 +20,7 @@ todoForm.addEventListener("submit",(e)=>{
     //  console.log(newLi);
 
     todoList.append(newLi);
-    todoInput.value= "";// isse jo v hum input likhenge enter click karne par ya add todo pe click krne par wo input field clear ho jayegi
+    todoInput.value= "";
 
 
 });
@@ -33,7 +31,7 @@ todoForm.addEventListener("submit",(e)=>{
 todoList.addEventListener("click",(e)=>{
 
     // console.log(e.target);
-    // console.log(e.target.classList);// ye mujhe sara class list dega
+    // console.log(e.target.classList);
 
     // check if user clicked on done button
 
